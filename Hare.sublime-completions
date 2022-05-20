@@ -1,0 +1,197 @@
+{
+    "scope": "meta.preprocessor.hare",
+    "completions":
+    [
+        {
+            // Conditionally compiled macro that compares its argument to zero
+            "trigger": "ascii;",
+            "contents": "ascii;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "bufio;",
+            "contents": "bufio;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "bytes;",
+            "contents": "bytes;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "crypto;",
+            "contents": "crypto;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "datetime;",
+            "contents": "datetime;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "dirs;",
+            "contents": "dirs;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "encoding;",
+            "contents": "encoding;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "endian;",
+            "contents": "endian;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "erros;",
+            "contents": "errors;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "fmt;",
+            "contents": "fmt;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "fnmatch;",
+            "contents": "fnmatch;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "format;",
+            "contents": "format;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "fs;",
+            "contents": "fs;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "getopt;",
+            "contents": "getopt;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "glob;",
+            "contents": "glob;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "hare;",
+            "contents": "hare;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "hash;",
+            "contents": "hash;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "io;",
+            "contents": "io;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "linux;",
+            "contents": "linux;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "log;",
+            "contents": "log;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "math;",
+            "contents": "math;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "mime;",
+            "contents": "mime;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "net;",
+            "contents": "net;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "os;",
+            "contents": "os;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "path;",
+            "contents": "path;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "reges;",
+            "contents": "regex;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "rt;",
+            "contents": "rt;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "shlex;",
+            "contents": "shlex;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "slices;",
+            "contents": "slices;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "sort;",
+            "contents": "sort;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "strconv;",
+            "contents": "strconv;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "strings;",
+            "contents": "strings;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "strio;",
+            "contents": "strio;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "temp;",
+            "contents": "temp;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "time;",
+            "contents": "time;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "types;",
+            "contents": "types;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "unix;",
+            "contents": "unix;",
+            "kind": "namespace"
+        },
+        {
+            "trigger": "uuid;",
+            "contents": "uuid;",
+            "kind": "namespace"
+        },
+    ]
+}
