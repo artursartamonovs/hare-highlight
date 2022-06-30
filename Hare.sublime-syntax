@@ -37,7 +37,7 @@ contexts:
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
-    - match: '\b(abort|alloc|append|as|assert|bool|break|char|const|continue|def|defer|delete|else|enum|export|f32|f64|false|fn|for|free|i16|i32|i64|i8|if|int|is|len|let|match|null|nullable|offset|return|rune|size|static|str|struct|switch|true|type|u16|u32|u64|u8|uint|uintptr|union|void|_|yield)\b'
+    - match: '\b(abort|alloc|append|as|assert|bool|break|case|char|const|continue|def|defer|delete|else|enum|export|f32|f64|false|fn|for|free|i16|i32|i64|i8|if|int|is|len|let|match|null|nullable|offset|return|rune|size|static|str|struct|switch|true|type|u16|u32|u64|u8|uint|uintptr|union|void|_|yield)\b'
       scope: keyword.control.hare
 
   use_keyword:
