@@ -40,6 +40,7 @@ contexts:
     - match: '\b(abort|alloc|append|as|assert|bool|break|case|char|const|continue|def|defer|delete|else|enum|export|f32|f64|false|fn|for|free|i16|i32|i64|i8|if|int|is|len|let|match|null|nullable|offset|return|rune|size|static|str|struct|switch|true|type|u16|u32|u64|u8|uint|uintptr|union|void|_|yield)\b'
       scope: keyword.control.hare
 
+
   use_keyword:
     - match: '\buse\b'
       scope: keyword.control.use.hare
@@ -54,6 +55,12 @@ contexts:
 
 
   numbers:
+    # float
+    - match: '\b(\+|-)?[0-9]+\.[0-9]+((e|E)?(\+|-)?[0-9]+)(f32|f64)?'
+      scope: constant.numeric.hare
+    # float second
+    - match: '\b(\+|-)?[0-9]((e|E)(\+|-)?[0-9]+)?(f32|f64)?\b'
+      scope: constant.numeric.hare
     #decimal
     - match: '\b(-)?[0-9.]+(i64|i32|i16|i8|u64|u32|u16|u8|i|u|z)?\b'
       scope: constant.numeric.hare
@@ -66,6 +73,7 @@ contexts:
     # octet
     - match: '\b(0[o])({{oct_digit}}*)(i64|i32|i16|i8|u64|u32|u16|u8|i|u|z)?\b'
       scope: constant.numeric.hare
+
 
   strings:
     # Strings begin and end with quotes, and use backslashes as an escape
