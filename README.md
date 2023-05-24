@@ -2,10 +2,12 @@
 
 Syntax highlighting for [Hare language](https://harelang.org/)
 
-Whats in:
+What's in:
+
  * all keywords
  * strings
  * numericals
 
-Todo:
+To do:
+
  * add autocompletion for standard libraries

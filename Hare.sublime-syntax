@@ -33,7 +33,7 @@ contexts:
 
   keywords:
     # Keywords are if, else for and while.
-    # Note that blackslashes don't need to be escaped within single quoted
+    # Note that backslashes don't need to be escaped within single quoted
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
@@ -47,11 +47,9 @@ contexts:
       push:
         - match: ' \b[a-zA-Z]*\b'
           scope: meta.preprocessor.hare
-          #pop: true
-          push:
-            - match: ';'
-              scope: keyword.control.endident.hare
-              pop: 2
+        - match: ';'
+          scope: keyword.control.endident.hare
+          pop: true
 
 
   numbers:
@@ -61,7 +59,7 @@ contexts:
     # float second
     - match: '\b(\+|-)?[0-9]((e|E)(\+|-)?[0-9]+)?(f32|f64)?\b'
       scope: constant.numeric.hare
-    #decimal
+    # decimal
     - match: '\b(-)?[0-9.]+(i64|i32|i16|i8|u64|u32|u16|u8|i|u|z)?\b'
       scope: constant.numeric.hare
     # hex digits
