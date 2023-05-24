@@ -85,8 +85,14 @@ contexts:
   inside_string:
     - meta_include_prototype: false
     - meta_scope: string.quoted.double.hare
-    - match: '\.'
+    - match: '\\.'
       scope: constant.character.escape.hare
+    - match: '{'
+      scope: constant.character.escape.hare
+      push:
+        - match: '.*?}'
+          scope: constant.character.escape.hare
+          pop: true
     - match: '"'
       scope: punctuation.definition.string.end.hare
       pop: true
