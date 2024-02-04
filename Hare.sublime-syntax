@@ -133,5 +133,5 @@ contexts:
       scope: keyword.operator.arithmetic.hare
     - match: <|>|<\=|>\=|\=\=|\!\=
       scope: keyword.operator.comparison.c
-    - match: \=>|::|:|\?|!|\|
+    - match: \=>|::|:|\?|!|\||\.\.\.|\.\.
       scope: keyword.operator.misc.hare
